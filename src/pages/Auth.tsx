@@ -21,13 +21,26 @@ export default function Auth() {
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
 
+  // Forbidden characters: ' " % # * ( )
+  const forbiddenCharsRegex = /['"%#*()]/;
+  const hasForbiddenChars = (value: string) => forbiddenCharsRegex.test(value);
+
   const loginSchema = z.object({
-    email: z.string().email(t('auth.errors.invalidEmail')),
-    password: z.string().min(6, t('auth.errors.passwordMin')),
+    email: z.string()
+      .email(t('auth.errors.invalidEmail'))
+      .max(50, t('auth.errors.emailMaxLength'))
+      .refine((val) => !hasForbiddenChars(val), t('auth.errors.forbiddenChars')),
+    password: z.string()
+      .min(6, t('auth.errors.passwordMin'))
+      .max(15, t('auth.errors.passwordMaxLength'))
+      .refine((val) => !hasForbiddenChars(val), t('auth.errors.forbiddenChars')),
   });
 
   const signupSchema = loginSchema.extend({
-    fullName: z.string().min(2, t('auth.errors.enterName')),
+    fullName: z.string()
+      .min(2, t('auth.errors.enterName'))
+      .max(15, t('auth.errors.nameMaxLength'))
+      .refine((val) => !hasForbiddenChars(val), t('auth.errors.forbiddenChars')),
   });
 
   if (user && !authLoading) {
@@ -122,6 +135,7 @@ export default function Auth() {
                       className="pl-10 h-12 bg-background"
                       value={formData.fullName}
                       onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
+                      maxLength={15}
                     />
                   </div>
                   {errors.fullName && (
@@ -143,6 +157,7 @@ export default function Auth() {
                     className="pl-10 h-12 bg-background"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    maxLength={50}
                   />
                 </div>
                 {errors.email && (
@@ -163,6 +178,7 @@ export default function Auth() {
                     className="pl-10 h-12 bg-background"
                     value={formData.password}
                     onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                    maxLength={15}
                   />
                 </div>
                 {errors.password && (

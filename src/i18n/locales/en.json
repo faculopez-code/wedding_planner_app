@@ -44,7 +44,11 @@
       "failedSignIn": "Failed to sign in",
       "failedCreateAccount": "Failed to create account",
       "alreadyRegistered": "This email is already registered. Please sign in instead.",
-      "somethingWrong": "Something went wrong. Please try again."
+      "somethingWrong": "Something went wrong. Please try again.",
+      "nameMaxLength": "Name cannot exceed 15 characters",
+      "emailMaxLength": "Email cannot exceed 50 characters",
+      "passwordMaxLength": "Password cannot exceed 15 characters",
+      "forbiddenChars": "Characters not allowed: ' \" % # * ( )"
     },
     "success": {
       "accountCreated": "Account created! You can now sign in."

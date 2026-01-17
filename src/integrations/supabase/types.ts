@@ -171,6 +171,101 @@ export type Database = {
           },
         ]
       }
+      pinterest_boards: {
+        Row: {
+          cover_image_url: string | null
+          created_at: string
+          embed_url: string | null
+          id: string
+          name: string
+          pinterest_board_id: string | null
+          url: string
+          wedding_id: string
+        }
+        Insert: {
+          cover_image_url?: string | null
+          created_at?: string
+          embed_url?: string | null
+          id?: string
+          name: string
+          pinterest_board_id?: string | null
+          url: string
+          wedding_id: string
+        }
+        Update: {
+          cover_image_url?: string | null
+          created_at?: string
+          embed_url?: string | null
+          id?: string
+          name?: string
+          pinterest_board_id?: string | null
+          url?: string
+          wedding_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "pinterest_boards_wedding_id_fkey"
+            columns: ["wedding_id"]
+            isOneToOne: false
+            referencedRelation: "weddings"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      pinterest_pins: {
+        Row: {
+          board_id: string | null
+          created_at: string
+          description: string | null
+          embed_url: string | null
+          id: string
+          image_url: string
+          link_original: string | null
+          pinterest_pin_id: string | null
+          thumbnail_url: string | null
+          wedding_id: string
+        }
+        Insert: {
+          board_id?: string | null
+          created_at?: string
+          description?: string | null
+          embed_url?: string | null
+          id?: string
+          image_url: string
+          link_original?: string | null
+          pinterest_pin_id?: string | null
+          thumbnail_url?: string | null
+          wedding_id: string
+        }
+        Update: {
+          board_id?: string | null
+          created_at?: string
+          description?: string | null
+          embed_url?: string | null
+          id?: string
+          image_url?: string
+          link_original?: string | null
+          pinterest_pin_id?: string | null
+          thumbnail_url?: string | null
+          wedding_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "pinterest_pins_board_id_fkey"
+            columns: ["board_id"]
+            isOneToOne: false
+            referencedRelation: "pinterest_boards"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "pinterest_pins_wedding_id_fkey"
+            columns: ["wedding_id"]
+            isOneToOne: false
+            referencedRelation: "weddings"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       profiles: {
         Row: {
           avatar_url: string | null
