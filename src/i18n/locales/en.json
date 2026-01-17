@@ -1,0 +1,362 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "back": "Back",
+    "continue": "Continue",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "optional",
+    "required": "required",
+    "select": "Select...",
+    "noResults": "No results",
+    "language": "Language",
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "beginJourney": "Begin Your Journey",
+    "signInContinue": "Sign in to continue planning your perfect day",
+    "createAccountStart": "Create an account to start planning your wedding",
+    "yourName": "Your Name",
+    "enterName": "Enter your name",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "createAccount": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "errors": {
+      "invalidEmail": "Please enter a valid email",
+      "passwordMin": "Password must be at least 6 characters",
+      "enterName": "Please enter your name",
+      "failedSignIn": "Failed to sign in",
+      "failedCreateAccount": "Failed to create account",
+      "alreadyRegistered": "This email is already registered. Please sign in instead.",
+      "somethingWrong": "Something went wrong. Please try again."
+    },
+    "success": {
+      "accountCreated": "Account created! You can now sign in."
+    }
+  },
+  "onboarding": {
+    "congratulations": "Congratulations!",
+    "almostThere": "Almost There",
+    "startPlanning": "Let's start planning your perfect day",
+    "fewMoreDetails": "A few more details to personalize your experience",
+    "partner1": "Partner 1",
+    "partner2": "Partner 2",
+    "enterFirstName": "Enter first name",
+    "weddingDate": "Wedding Date",
+    "dontWorry": "Don't worry, you can change this later",
+    "estimatedBudget": "Estimated Budget",
+    "startPlanningBtn": "Start Planning",
+    "errors": {
+      "enterBothNames": "Please enter both names"
+    },
+    "success": {
+      "welcome": "Welcome! Your wedding planning journey begins."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "countdown": {
+      "title": "Counting Down to Forever",
+      "approaching": "Your special day is approaching",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "tasks": "Tasks",
+    "budget": "Budget",
+    "guests": "Guests",
+    "timeline": "Timeline",
+    "vendors": "Vendors",
+    "calendar": "Calendar",
+    "settings": "Settings",
+    "weddingPlanner": "Wedding Planner"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "completed": "completed",
+    "of": "of",
+    "addTask": "Add Task",
+    "newTask": "New Task",
+    "taskTitle": "Title",
+    "taskTitlePlaceholder": "e.g., Book photographer",
+    "description": "Description",
+    "descriptionOptional": "Description (optional)",
+    "addDetails": "Add details...",
+    "category": "Category",
+    "priority": "Priority",
+    "dueDate": "Due Date",
+    "dueDateOptional": "Due Date (optional)",
+    "createTask": "Create Task",
+    "noTasks": "No tasks yet",
+    "addFirstTask": "Add your first task to get started",
+    "due": "Due",
+    "status": {
+      "all": "All",
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed"
+    },
+    "priorityLevel": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "toast": {
+      "created": "Task created",
+      "deleted": "Task deleted",
+      "failedCreate": "Failed to create task",
+      "failedUpdate": "Failed to update task",
+      "failedDelete": "Failed to delete task"
+    }
+  },
+  "budget": {
+    "title": "Budget",
+    "subtitle": "Track your wedding expenses",
+    "addExpense": "Add Expense",
+    "totalBudget": "Total Budget",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "budgetUsage": "Budget Usage",
+    "name": "Name",
+    "namePlaceholder": "e.g., Photographer deposit",
+    "estimatedCost": "Estimated Cost",
+    "actualCost": "Actual Cost",
+    "otherExpenses": "Other Expenses",
+    "noExpenses": "No expenses yet",
+    "startTracking": "Start tracking your wedding budget",
+    "est": "Est",
+    "configureBudget": "Configure budget",
+    "addFunds": "Add funds",
+    "setInitialBudget": "Set initial budget",
+    "initialBudgetDescription": "Define the total budget for your wedding",
+    "addFundsDescription": "Add additional funds to the budget",
+    "currentBudget": "Current budget",
+    "newBudget": "New budget",
+    "amountToAdd": "Amount to add",
+    "toast": {
+      "added": "Expense added",
+      "deleted": "Expense deleted",
+      "failedAdd": "Failed to add expense",
+      "failedDelete": "Failed to delete expense",
+      "budgetUpdated": "Budget updated",
+      "fundsAdded": "Funds added",
+      "failedUpdate": "Failed to update budget"
+    }
+  },
+  "guests": {
+    "title": "Guest List",
+    "invited": "invited",
+    "addGuest": "Add Guest",
+    "fullName": "Full Name",
+    "enterGuestName": "Enter guest name",
+    "emailOptional": "Email (optional)",
+    "phoneOptional": "Phone (optional)",
+    "hasPlusOne": "Has plus one",
+    "plusOneName": "Plus One Name",
+    "enterPlusOneName": "Enter plus one name",
+    "dietaryPreferences": "Dietary Preferences",
+    "dietaryPlaceholder": "e.g., Vegetarian, Gluten-free",
+    "stats": {
+      "total": "Total",
+      "attending": "Attending",
+      "pending": "Pending",
+      "declined": "Declined"
+    },
+    "rsvp": {
+      "pending": "Pending",
+      "attending": "Attending",
+      "not_attending": "Declined",
+      "maybe": "Maybe"
+    },
+    "noGuests": "No guests yet",
+    "startBuilding": "Start building your guest list",
+    "expectedAttendance": "Expected attendance",
+    "includingPlusOnes": "Including {{count}} plus-one",
+    "includingPlusOnes_plural": "Including {{count}} plus-ones",
+    "manage": "Manage",
+    "import": {
+      "title": "Import from Excel",
+      "uploadDescription": "Upload an Excel file with your guest list",
+      "previewDescription": "Review the data before importing",
+      "downloadTemplate": "Download template",
+      "dropZone": "Drag a file or click to select",
+      "acceptedFormats": "Accepted formats: .xlsx, .xls",
+      "processing": "Processing file...",
+      "instructions": {
+        "title": "Recognized columns:",
+        "column1": "Full Name (required)",
+        "column2": "Email, Phone, Has Plus One, Plus One Name",
+        "column3": "Dietary Preferences, Table"
+      },
+      "valid": "valid",
+      "invalid": "with errors",
+      "changeFile": "Change file",
+      "status": "Status",
+      "ready": "Ready",
+      "importGuests": "Import {{count}} guests",
+      "success": "Successfully imported {{count}} guests",
+      "errors": {
+        "nameRequired": "Name required",
+        "invalidEmail": "Invalid email",
+        "parseError": "Error reading file",
+        "invalidFormat": "Invalid format. Use .xlsx or .xls files",
+        "noValidGuests": "No valid guests to import",
+        "importError": "Error importing guests"
+      }
+    },
+    "toast": {
+      "added": "Guest added",
+      "removed": "Guest removed",
+      "failedAdd": "Failed to add guest",
+      "failedUpdate": "Failed to update RSVP",
+      "failedDelete": "Failed to delete guest"
+    }
+  },
+  "timeline": {
+    "title": "Wedding Day Timeline",
+    "subtitle": "Plan your perfect day, hour by hour",
+    "addEvent": "Add Event",
+    "addTimelineEvent": "Add Timeline Event",
+    "eventName": "Event Name",
+    "eventNamePlaceholder": "e.g., Ceremony begins",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "endTimeOptional": "End Time (optional)",
+    "location": "Location",
+    "locationOptional": "Location (optional)",
+    "locationPlaceholder": "e.g., Main Hall",
+    "assignedTo": "Assigned To",
+    "assignedToOptional": "Assigned To (optional)",
+    "assignedToPlaceholder": "e.g., Wedding planner",
+    "noEvents": "No events yet",
+    "startPlanning": "Start planning your wedding day schedule",
+    "toast": {
+      "added": "Event added",
+      "deleted": "Event deleted",
+      "failedAdd": "Failed to add event",
+      "failedDelete": "Failed to delete event"
+    }
+  },
+  "vendors": {
+    "title": "Vendors",
+    "vendors": "vendors",
+    "addVendor": "Add Vendor",
+    "businessName": "Business Name",
+    "businessNamePlaceholder": "e.g., John's Photography",
+    "contactName": "Contact Name",
+    "contactNameOptional": "Contact Name (optional)",
+    "primaryContact": "Primary contact",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "websiteOptional": "Website (optional)",
+    "contractSigned": "Contract Signed",
+    "noContract": "No contract",
+    "signed": "Signed",
+    "noVendors": "No vendors yet",
+    "addVendorsInfo": "Add your wedding vendors and their contact info",
+    "toast": {
+      "added": "Vendor added",
+      "removed": "Vendor removed",
+      "failedAdd": "Failed to add vendor",
+      "failedUpdate": "Failed to update vendor",
+      "failedDelete": "Failed to delete vendor"
+    }
+  },
+  "calendar": {
+    "title": "Calendar",
+    "subtitle": "View your tasks and important dates",
+    "selectDate": "Select a date",
+    "weddingDay": "Wedding Day! 💍",
+    "tasksDue": "task due",
+    "tasksDue_plural": "tasks due",
+    "noTasksThisDay": "No tasks due on this day",
+    "legend": {
+      "weddingDay": "Wedding Day",
+      "hasTasks": "Has Tasks"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your wedding details",
+    "partner1Name": "Partner 1 Name",
+    "partner2Name": "Partner 2 Name",
+    "weddingDate": "Wedding Date",
+    "venueName": "Venue Name",
+    "venuePlaceholder": "e.g., The Grand Ballroom",
+    "totalBudget": "Total Budget",
+    "saveChanges": "Save Changes",
+    "account": "Account",
+    "email": "Email",
+    "name": "Name",
+    "notSet": "Not set",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "toast": {
+      "saved": "Settings saved",
+      "failedSave": "Failed to save settings"
+    }
+  },
+  "progress": {
+    "title": "Planning Progress",
+    "phases": {
+      "proposal_engagement": "Proposal & Engagement",
+      "pre_wedding": "Pre-Wedding",
+      "wedding_day": "Wedding Day",
+      "post_wedding": "Post-Wedding"
+    },
+    "currentPhase": "Current Phase",
+    "overallProgress": "Overall Progress"
+  },
+  "budgetPreview": {
+    "title": "Budget",
+    "of": "of",
+    "remaining": "Remaining",
+    "spent": "Spent"
+  },
+  "tasksPreview": {
+    "title": "Upcoming Tasks",
+    "viewAll": "View All",
+    "upcoming": "Upcoming",
+    "overdue": "Overdue",
+    "noPendingTasks": "No pending tasks!",
+    "enjoyPlanning": "Enjoy your planning"
+  },
+"notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "returnHome": "Return to Home"
+  },
+  "categories": {
+    "venue": "Venue",
+    "catering": "Catering",
+    "photography": "Photography",
+    "music": "Music",
+    "flowersDecor": "Flowers & Decor",
+    "attire": "Attire",
+    "rings": "Rings",
+    "invitations": "Invitations",
+    "transportation": "Transportation",
+    "honeymoon": "Honeymoon"
+  }
+}

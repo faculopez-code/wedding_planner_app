@@ -1,0 +1,362 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Agregar",
+    "back": "Volver",
+    "continue": "Continuar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "all": "Todos",
+    "none": "Ninguno",
+    "yes": "Sí",
+    "no": "No",
+    "optional": "opcional",
+    "required": "requerido",
+    "select": "Seleccionar...",
+    "noResults": "Sin resultados",
+    "language": "Idioma",
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "auth": {
+    "welcomeBack": "¡Bienvenido de nuevo!",
+    "beginJourney": "Comenzá tu viaje",
+    "signInContinue": "Iniciá sesión para continuar planificando tu día perfecto",
+    "createAccountStart": "Creá una cuenta para empezar a planificar tu casamiento",
+    "yourName": "Tu nombre",
+    "enterName": "Ingresá tu nombre",
+    "email": "Email",
+    "password": "Contraseña",
+    "signIn": "Iniciar sesión",
+    "createAccount": "Crear cuenta",
+    "noAccount": "¿No tenés cuenta?",
+    "hasAccount": "¿Ya tenés cuenta?",
+    "signUp": "Registrate",
+    "signOut": "Cerrar sesión",
+    "errors": {
+      "invalidEmail": "Por favor ingresá un email válido",
+      "passwordMin": "La contraseña debe tener al menos 6 caracteres",
+      "enterName": "Por favor ingresá tu nombre",
+      "failedSignIn": "Error al iniciar sesión",
+      "failedCreateAccount": "Error al crear cuenta",
+      "alreadyRegistered": "Este email ya está registrado. Por favor iniciá sesión.",
+      "somethingWrong": "Algo salió mal. Por favor intentá de nuevo."
+    },
+    "success": {
+      "accountCreated": "¡Cuenta creada! Ya podés iniciar sesión."
+    }
+  },
+  "onboarding": {
+    "congratulations": "¡Felicitaciones!",
+    "almostThere": "Ya casi",
+    "startPlanning": "Empecemos a planificar tu día perfecto",
+    "fewMoreDetails": "Unos detalles más para personalizar tu experiencia",
+    "partner1": "Pareja 1",
+    "partner2": "Pareja 2",
+    "enterFirstName": "Ingresá el nombre",
+    "weddingDate": "Fecha del casamiento",
+    "dontWorry": "No te preocupes, podés cambiarlo después",
+    "estimatedBudget": "Presupuesto estimado",
+    "startPlanningBtn": "Comenzar a planificar",
+    "errors": {
+      "enterBothNames": "Por favor ingresá ambos nombres"
+    },
+    "success": {
+      "welcome": "¡Bienvenidos! Tu viaje de planificación comienza."
+    }
+  },
+  "dashboard": {
+    "title": "Panel principal",
+    "countdown": {
+      "title": "Contando hacia el para siempre",
+      "approaching": "Tu día especial se acerca",
+      "days": "Días",
+      "hours": "Horas",
+      "minutes": "Minutos",
+      "seconds": "Segundos"
+    }
+  },
+  "nav": {
+    "dashboard": "Inicio",
+    "tasks": "Tareas",
+    "budget": "Presupuesto",
+    "guests": "Invitados",
+    "timeline": "Cronograma",
+    "vendors": "Proveedores",
+    "calendar": "Calendario",
+    "settings": "Configuración",
+    "weddingPlanner": "Planificador de Bodas"
+  },
+  "tasks": {
+    "title": "Tareas",
+    "completed": "completadas",
+    "of": "de",
+    "addTask": "Agregar tarea",
+    "newTask": "Nueva tarea",
+    "taskTitle": "Título",
+    "taskTitlePlaceholder": "ej. Reservar fotógrafo",
+    "description": "Descripción",
+    "descriptionOptional": "Descripción (opcional)",
+    "addDetails": "Agregá detalles...",
+    "category": "Categoría",
+    "priority": "Prioridad",
+    "dueDate": "Fecha límite",
+    "dueDateOptional": "Fecha límite (opcional)",
+    "createTask": "Crear tarea",
+    "noTasks": "Sin tareas todavía",
+    "addFirstTask": "Agregá tu primera tarea para comenzar",
+    "due": "Vence",
+    "status": {
+      "all": "Todas",
+      "pending": "Pendientes",
+      "in_progress": "En progreso",
+      "completed": "Completadas"
+    },
+    "priorityLevel": {
+      "low": "Baja",
+      "medium": "Media",
+      "high": "Alta"
+    },
+    "toast": {
+      "created": "Tarea creada",
+      "deleted": "Tarea eliminada",
+      "failedCreate": "Error al crear tarea",
+      "failedUpdate": "Error al actualizar tarea",
+      "failedDelete": "Error al eliminar tarea"
+    }
+  },
+  "budget": {
+    "title": "Presupuesto",
+    "subtitle": "Controlá los gastos de tu casamiento",
+    "addExpense": "Agregar gasto",
+    "totalBudget": "Presupuesto total",
+    "spent": "Gastado",
+    "remaining": "Restante",
+    "budgetUsage": "Uso del presupuesto",
+    "name": "Nombre",
+    "namePlaceholder": "ej. Seña del fotógrafo",
+    "estimatedCost": "Costo estimado",
+    "actualCost": "Costo real",
+    "otherExpenses": "Otros gastos",
+    "noExpenses": "Sin gastos todavía",
+    "startTracking": "Empezá a registrar tu presupuesto",
+    "est": "Est",
+    "configureBudget": "Configurar presupuesto",
+    "addFunds": "Agregar saldo",
+    "setInitialBudget": "Establecer presupuesto inicial",
+    "initialBudgetDescription": "Definí el presupuesto total para tu casamiento",
+    "addFundsDescription": "Agregá fondos adicionales al presupuesto",
+    "currentBudget": "Presupuesto actual",
+    "newBudget": "Nuevo presupuesto",
+    "amountToAdd": "Monto a agregar",
+    "toast": {
+      "added": "Gasto agregado",
+      "deleted": "Gasto eliminado",
+      "failedAdd": "Error al agregar gasto",
+      "failedDelete": "Error al eliminar gasto",
+      "budgetUpdated": "Presupuesto actualizado",
+      "fundsAdded": "Fondos agregados",
+      "failedUpdate": "Error al actualizar presupuesto"
+    }
+  },
+"guests": {
+    "title": "Lista de invitados",
+    "invited": "invitados",
+    "addGuest": "Agregar invitado",
+    "fullName": "Nombre completo",
+    "enterGuestName": "Ingresá el nombre del invitado",
+    "emailOptional": "Email (opcional)",
+    "phoneOptional": "Teléfono (opcional)",
+    "hasPlusOne": "Tiene acompañante",
+    "plusOneName": "Nombre del acompañante",
+    "enterPlusOneName": "Ingresá el nombre del acompañante",
+    "dietaryPreferences": "Preferencias alimentarias",
+    "dietaryPlaceholder": "ej. Vegetariano, Sin gluten",
+    "stats": {
+      "total": "Total",
+      "attending": "Confirmados",
+      "pending": "Pendientes",
+      "declined": "Declinaron"
+    },
+    "rsvp": {
+      "pending": "Pendiente",
+      "attending": "Confirmado",
+      "not_attending": "Declinado",
+      "maybe": "Tal vez"
+    },
+    "noGuests": "Sin invitados todavía",
+    "startBuilding": "Empezá a armar tu lista de invitados",
+    "expectedAttendance": "Asistencia esperada",
+    "includingPlusOnes": "Incluyendo {{count}} acompañante",
+    "includingPlusOnes_plural": "Incluyendo {{count}} acompañantes",
+    "manage": "Administrar",
+    "import": {
+      "title": "Importar desde Excel",
+      "uploadDescription": "Subí un archivo Excel con tu lista de invitados",
+      "previewDescription": "Revisá los datos antes de importar",
+      "downloadTemplate": "Descargar plantilla",
+      "dropZone": "Arrastrá un archivo o hacé clic para seleccionar",
+      "acceptedFormats": "Formatos aceptados: .xlsx, .xls",
+      "processing": "Procesando archivo...",
+      "instructions": {
+        "title": "Columnas reconocidas:",
+        "column1": "Nombre Completo (requerido)",
+        "column2": "Email, Teléfono, Tiene Acompañante, Nombre Acompañante",
+        "column3": "Preferencias Alimentarias, Mesa"
+      },
+      "valid": "válidos",
+      "invalid": "con errores",
+      "changeFile": "Cambiar archivo",
+      "status": "Estado",
+      "ready": "Listo",
+      "importGuests": "Importar {{count}} invitados",
+      "success": "Se importaron {{count}} invitados correctamente",
+      "errors": {
+        "nameRequired": "Nombre requerido",
+        "invalidEmail": "Email inválido",
+        "parseError": "Error al leer el archivo",
+        "invalidFormat": "Formato no válido. Usá archivos .xlsx o .xls",
+        "noValidGuests": "No hay invitados válidos para importar",
+        "importError": "Error al importar invitados"
+      }
+    },
+    "toast": {
+      "added": "Invitado agregado",
+      "removed": "Invitado eliminado",
+      "failedAdd": "Error al agregar invitado",
+      "failedUpdate": "Error al actualizar RSVP",
+      "failedDelete": "Error al eliminar invitado"
+    }
+  },
+  "timeline": {
+    "title": "Cronograma del día",
+    "subtitle": "Planificá tu día perfecto, hora por hora",
+    "addEvent": "Agregar evento",
+    "addTimelineEvent": "Agregar evento al cronograma",
+    "eventName": "Nombre del evento",
+    "eventNamePlaceholder": "ej. Comienza la ceremonia",
+    "startTime": "Hora de inicio",
+    "endTime": "Hora de fin",
+    "endTimeOptional": "Hora de fin (opcional)",
+    "location": "Ubicación",
+    "locationOptional": "Ubicación (opcional)",
+    "locationPlaceholder": "ej. Salón principal",
+    "assignedTo": "Asignado a",
+    "assignedToOptional": "Asignado a (opcional)",
+    "assignedToPlaceholder": "ej. Wedding planner",
+    "noEvents": "Sin eventos todavía",
+    "startPlanning": "Empezá a planificar el cronograma de tu día",
+    "toast": {
+      "added": "Evento agregado",
+      "deleted": "Evento eliminado",
+      "failedAdd": "Error al agregar evento",
+      "failedDelete": "Error al eliminar evento"
+    }
+  },
+  "vendors": {
+    "title": "Proveedores",
+    "vendors": "proveedores",
+    "addVendor": "Agregar proveedor",
+    "businessName": "Nombre del negocio",
+    "businessNamePlaceholder": "ej. Fotografía Juan",
+    "contactName": "Nombre de contacto",
+    "contactNameOptional": "Nombre de contacto (opcional)",
+    "primaryContact": "Contacto principal",
+    "email": "Email",
+    "phone": "Teléfono",
+    "website": "Sitio web",
+    "websiteOptional": "Sitio web (opcional)",
+    "contractSigned": "Contrato firmado",
+    "noContract": "Sin contrato",
+    "signed": "Firmado",
+    "noVendors": "Sin proveedores todavía",
+    "addVendorsInfo": "Agregá tus proveedores y su información de contacto",
+    "toast": {
+      "added": "Proveedor agregado",
+      "removed": "Proveedor eliminado",
+      "failedAdd": "Error al agregar proveedor",
+      "failedUpdate": "Error al actualizar proveedor",
+      "failedDelete": "Error al eliminar proveedor"
+    }
+  },
+  "calendar": {
+    "title": "Calendario",
+    "subtitle": "Mirá tus tareas y fechas importantes",
+    "selectDate": "Seleccioná una fecha",
+    "weddingDay": "¡Día del casamiento! 💍",
+    "tasksDue": "tarea pendiente",
+    "tasksDue_plural": "tareas pendientes",
+    "noTasksThisDay": "Sin tareas para este día",
+    "legend": {
+      "weddingDay": "Día del casamiento",
+      "hasTasks": "Tiene tareas"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Administrá los detalles de tu casamiento",
+    "partner1Name": "Nombre pareja 1",
+    "partner2Name": "Nombre pareja 2",
+    "weddingDate": "Fecha del casamiento",
+    "venueName": "Nombre del lugar",
+    "venuePlaceholder": "ej. Estancia La Rosada",
+    "totalBudget": "Presupuesto total",
+    "saveChanges": "Guardar cambios",
+    "account": "Cuenta",
+    "email": "Email",
+    "name": "Nombre",
+    "notSet": "No configurado",
+    "language": "Idioma",
+    "selectLanguage": "Seleccioná el idioma",
+    "toast": {
+      "saved": "Configuración guardada",
+      "failedSave": "Error al guardar configuración"
+    }
+  },
+  "progress": {
+    "title": "Progreso de planificación",
+    "phases": {
+      "proposal_engagement": "Propuesta y compromiso",
+      "pre_wedding": "Pre-casamiento",
+      "wedding_day": "Día del casamiento",
+      "post_wedding": "Post-casamiento"
+    },
+    "currentPhase": "Fase actual",
+    "overallProgress": "Progreso general"
+  },
+  "budgetPreview": {
+    "title": "Presupuesto",
+    "of": "de",
+    "remaining": "Restante",
+    "spent": "Gastado"
+  },
+  "tasksPreview": {
+    "title": "Próximas tareas",
+    "viewAll": "Ver todas",
+    "upcoming": "Próximas",
+    "overdue": "Vencidas",
+    "noPendingTasks": "¡No hay tareas pendientes!",
+    "enjoyPlanning": "Disfrutá de tu planificación"
+  },
+"notFound": {
+    "title": "404",
+    "message": "¡Ups! Página no encontrada",
+    "returnHome": "Volver al inicio"
+  },
+  "categories": {
+    "venue": "Salón / Lugar",
+    "catering": "Catering",
+    "photography": "Fotografía",
+    "music": "Música",
+    "flowersDecor": "Flores y Decoración",
+    "attire": "Vestuario",
+    "rings": "Anillos",
+    "invitations": "Invitaciones",
+    "transportation": "Transporte",
+    "honeymoon": "Luna de miel"
+  }
+}
